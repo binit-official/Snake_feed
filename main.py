@@ -84,13 +84,10 @@ while running:
 
     # Draw snake
     for snake_part in snake_parts:
-        # Draw the black rectangle
         pygame.draw.rect(screen, (0, 0, 0), snake_part, 6,4)  # Black rectangle
-
-        # Draw the white circle in the center of the rectangle
         center_x = snake_part.centerx
         center_y = snake_part.centery
-        circle_radius = config.GRID_CELL_SIZE // 4  # Adjust as needed for the circle size
+        circle_radius = config.GRID_CELL_SIZE // 4
         pygame.draw.circle(screen, (255, 255, 255), (center_x, center_y), circle_radius)
 
         # Check for collisions
