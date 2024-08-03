@@ -1,6 +1,6 @@
-# Snake Game
+# Snake_Feed
 
-A simple implementation of the classic Snake game using Pygame.
+A simple implementation of the nostalgic Snake game using Pygame.
 
 ## Requirements
 
